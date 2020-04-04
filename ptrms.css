@@ -15,7 +15,7 @@ aside#lateral{
     font-family:'Open Sans', sans-serif;
     border-radius: 10px;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .titulo{
@@ -37,11 +37,11 @@ article#main-col{
     background-color: #e6e6e6;
     border-radius: 10px;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 img{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 @media (max-width:600px){
