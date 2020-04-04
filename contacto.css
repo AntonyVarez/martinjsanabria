@@ -1,0 +1,38 @@
+
+.oscuro{
+    padding: 20px;
+    background-color: #6c7e8a;
+    color: #b7daf3 ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/*main-col*/
+
+article#main-col{
+    float: left;
+    width: 65%;
+    text-align: center;
+}
+
+section{
+    margin-left: 5px;
+}
+
+iframe{
+    margin-left: 5px;
+}
+
+
+@media (max-width:600px){
+    .menu{
+    flex-direction: column;
+    }
+}
+
+

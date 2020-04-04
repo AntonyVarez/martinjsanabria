@@ -1,0 +1,165 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.informacion{
+    position: absolute;  
+}
+
+/* decoracion del navegador */
+.navegacion{
+    background: rgb(133, 4, 36);
+    width: 1060px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+/*aqui se llama a todos los ul de la navegación desde el menu hasta los sub menu*/
+/* y se quita el decorado que trae de lista*/
+.navegacion ul{
+    list-style: none;  
+    z-index: 100;  
+}
+
+
+/*este menu me ordena de forma horizontal y de un lado a otro los enlaces*/
+.menu {
+    display: inline-block;
+    display: flex;
+    justify-content: space-around; 
+}
+
+/*esto decora los titulos de los enlaces principales, no los desplegables*/
+.menu  li  a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(199, 166, 166);
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif ;
+}
+
+/*efecto hover a los titulos y se llamará a los hijos y nietos*/
+.menu li a:hover{
+    color: white;
+    transition: all .4s; /*revisar trnasición de color no pasa nada */
+}
+
+
+.submenu{
+    position: absolute;
+    background: rgb(133, 4, 36);
+    width: 130px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    
+}
+
+.submenu li a{
+    display: block;
+    padding: 10px;
+    font-family:'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Informa lugar y fecha*/
+.top{
+    background:rgb(250, 248, 248);
+    padding: 14px;
+    font-size: 15px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Imagen del escudo del liceo*/
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: -15px 10px 10px 450px;
+}
+h2{
+    font: bold;
+    text-align: left;
+    font-family:'Open Sans', sans-serif ;
+    position: absolute;
+    padding-top: 5px;
+}
+
+.columna{
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+ 
+    color: rgb(231, 163, 79);
+}
+
+.padre{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background: rgb(133, 4, 36);
+    color:white;
+    font-family:'Open Sans', sans-serif ;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    position: inherit;
+    
+}
+
+
+
+/* Parte Responsiv*/
+@media (max-width:600px){
+        .menu{
+        flex-direction: column;
+         
+        } 
+        .navegacion ul li:hover ul{  /* No se despliega el submenu cuando esta en responsive*/
+            display: block;    
+        }
+        .top{
+            flex-direction: column; /*coloca el hnombre del liceo y la fecha una debajo de la otra*/
+        } 
+        h2{
+            text-align: right;
+        }
+        h2{
+            position: relative;
+        }
+        .logo{
+            margin: auto;
+        }
+
+        .padre{
+            flex-direction: row;  
+        }
+        .navegacion{
+            width: 100%;
+        }
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="L.N Martin J. Sanabria. Institución educativa con trayectoria formando a los jovenes de Valencia."> 
+    <link rel="shortcut icon" href="Logo liceoJPG.jpg">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="slide.css">
+    <script>src="https://code.jquery.com/jquery-1.11.3.min.js"</script>
+    <link rel="shortcut icon" type="image/x-icon" href="Images/faviconoriginal.png">
+    <title>Liceo Nacional Martin J. Sanabria</title>
+</head>
+
+
+<header>
+   <h2>Liceo Nacional Martin J. Sanabria</h2>
+    <div class="top">  
+        <script class="fecha">
+            var fechaActual=new Date();
+            console.log(fechaActual. toLocaleDateString());
+            var year=fechaActual.getFullYear();
+            var mes=fechaActual.getMonth() + 1;
+            var dia=fechaActual.getDate();
+            var dayweek=fechaActual.getDay();
+            var diasSemana=["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sábado"]
+            document.write("San Blas: "+diasSemana[dayweek]+ " " +dia+ " de Abril " + " del año " +year   );     
+        </script>
+    </div>
+
+
+    <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Institución</a>
+                <ul class="submenu">
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="mision.html">Misión</a></li>
+                    <li><a href="vision.html">Visión</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Información</a>
+                <ul class="submenu">
+                    <li><a href="cra.html">C.R.A</a></li>
+                    <li><a href="cultura.html">Cultura</a></li>
+                    <li><a href="crp.html">CRP</a></li>
+                    <li><a href="ptms.html">PTMS</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a>
+                <ul class="submenu">
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <br>
+
+    <section class="logo">
+        <img src="Images/logo.jpg" alt="Logo Liceo">
+    </section>
+</header>
+
+<script src="menu.js"></script>
+
+<div class="container-all">
+
+    <input type="radio" id="1" name="image-slide" hidden/>
+    <input type="radio" id="2" name="image-slide" hidden/>
+    <input type="radio" id="3" name="image-slide" hidden/>
+
+    <div class="slide">
+
+        <div class="item-slide">
+            <img src="Images/img1.jpg">
+        </div>
+
+        <div class="item-slide">
+            <img src="Images/img2.jpg">
+        </div>
+
+        <div class="item-slide">
+            <img src="Images/img3.jpg">
+        </div>
+
+    </div>
+
+    <div class="pagination">
+
+        <label class="pagination-item" for="1">
+            <img src="Images/img1.jpg">
+        </label>
+
+        <label class="pagination-item" for="2">
+            <img src="Images/img2.jpg">
+        </label>
+
+        <label class="pagination-item" for="3">
+            <img src="Images/img3.jpg">
+        </label>
+
+    </div>
+
+</div>
+<br>
+<br>
+<hr>
+
+<body>
+
+    <section class="padre">
+        <p class="columna"><a href="planderefuerzo.html"><b>Plan de refuerzo</b></a> <br>
+            <br>
+        Actividades y evaluaciones ha realizar como parte de las notas del segundo lapso, debido al estado de Cuarentena que vive el país</p>
+        
+        <p class="columna"> <a href="noticias.html"><b>Noticias</b></a> <br>
+        <br>
+        Noticias relacionadas en al ámbito general de la institución y de los sanabrienses.</p>
+
+        <p class="columna"> <a href="informacion.html"><b>Variedades</b></a> <br> 
+            <br>
+        Información concerniente a las actividades academicas, administrativas y organizacional.</p>
+    </section>
+<br>
+<br>
+<hr>
+
+</body>
+<footer>
+    <p>Desarrollado por el grupo de C.R.P Programación y Desarrollo Web 2020</p>
+</footer>
+</html>
