@@ -1,21 +1,75 @@
-/*lateral*/
-aside#lateral{
-    float: right;
-    width: 30%;
-    padding: 10px;
-} 
 
-.oscuro{
-    padding: 15px;
-    background-color: #35424a;
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    font-family:'Open Sans', sans-serif;
-    border-radius: 10px;
+/*biografia martin J. Sanabria*/
+.general{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 700px;
+}
+/*fondo de la caja animada*/
+.containerb{
+    position: relative;
+    width: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    /*background-color: blue;*/
+}
+
+
+.containerb .card{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0  5px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.containerb .card:hover{
+    height: 490px;
+}
+
+.containerb .card .imagex{
+    position: relative;
+    width: 280px;
+    height: 133px;
+    top: -60;
+    left: 45px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.containerb .card .imagex{
+    max-width: 100px;
+    border-radius: 4px;
+}
+
+.containerb .card .contentb{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
     text-align: center;
-    margin-left: 5px;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+}
+
+.containerb .card:hover .contentb{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 10px;
+    transition-delay: 0.3s;
 }
 
 /*main-col*/
@@ -33,7 +87,15 @@ article#main-col{
     background-color: #e6e6e6;
     border-radius: 10px;
     text-align: left;
-    margin-left: 5px;
+    margin-left: 15px;
+}
+
+/*imagen de misión*/
+.misionimage{
+    border-radius: 5px;
+    filter: drop-shadow(10px 10px 10px black);
+    margin-left: 15px;
+    margin-bottom: 100px;
 }
 
 img{

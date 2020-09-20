@@ -40,6 +40,11 @@ article#main-col{
     margin-left: 5px;
 }
 
+.imgptms{
+    filter: drop-shadow(15px 15px 10px black);
+    border-radius: 15px;
+}
+
 img{
     margin-left: 5px;
 }

@@ -1,10 +1,79 @@
-/*lateral*/
-aside#lateral{
-    float: right;
-    width: 30%;
-    padding: 10px;
-} 
 
+/*himno martin J. Sanabria*/
+.general{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: 660px;
+}
+
+.containerb{
+    position: relative;
+    width: 1100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:30px;
+}
+
+.containerb .card{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0  5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.containerb .card:hover{
+    height:720px;
+}
+.containerb .card .imagex{
+    position:relative;
+    width: 260px;
+    height: 260px;
+}
+
+.containerb .card .imagex{
+    position:relative;
+    width: 260px;
+    top: -45px;
+    left: -7px;
+    z-index: 1;
+    box-shadow: 10  10px 40px rgba(0,0,0,0.2);
+}
+
+.containerb .card .imagex{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.containerb .card .contentb{
+    position: relative;
+    margin-top: -140px; /*letras*/
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.containerb .card:hover .contentb{
+    visibility: visible;
+    opacity:1;
+    margin-top: -40px
+}
+
+
+/* caja de texto de la historia*/
 .oscuro{
     padding: 15px;
     background-color: #35424a;

@@ -33,11 +33,15 @@ article#main-col{
     background-color: #e6e6e6;
     border-radius: 10px;
     text-align: left;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
-img{
-    margin-left: 5px;
+/*imagen del logo de visión*/
+.imagenvision{
+    margin-left: 15px;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 10px black);
+    margin-bottom: 100px;
 }
 
 @media (max-width:600px){
