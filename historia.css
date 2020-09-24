@@ -108,7 +108,10 @@ article#main-col{
 
 
 img{
-    margin-left: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    filter: drop-shadow(10px 10px 10px black);
+    margin
 }
 
 @media (max-width:600px){
@@ -116,6 +119,29 @@ img{
     flex-direction: column;
     }
 
-}
+    .main-col{
+        width:100%;
+    }
+    
+    article#main-col{
+        width:auto;
+        margin-left:-5px;
+        margin-right:5px;
+        font-size:smaller;
+    }
 
+    .oscuro{
+        visibility: hidden;
+        position:absolute;
+    }
+
+    .general{
+        flex-direction: column;
+        margin-left: -80px;
+        top:1900px;
+        font-size: smaller;
+    
+    }
+
+}
 

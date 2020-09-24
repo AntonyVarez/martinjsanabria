@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.title{
+    color: black;
+}
+
 .informacion{
     position: absolute;  
 }
@@ -46,7 +50,7 @@
 /*efecto hover a los titulos y se llamará a los hijos y nietos*/
 .menu li a:hover{
     color: white;
-    transition: all .4s; /*revisar trnasición de color no pasa nada */
+    transition: all .4s; /*revisar trnasición de color no pasa nada*/ 
 }
 
 
@@ -97,23 +101,95 @@ h2{
     padding-top: 5px;
 }
 
-.columna{
-    padding: 20px;
-    width: 25%;
-    margin: 10px;
+body{
+    margin:0;
+    padding: 0;
+}*/
+
+/*nueva construcción 1*/
+.boxgeneral{
+    height:380px;
+    width: 100%;
+    background-color: darksalmon;
+    padding: 10px;
+    position:relative;
 }
 
-a{
+.textoevaluacion{
+    color: whitesmoke;
+}
+
+.evaluaciones{
+    height:380px;
+    width: 50%;
+    padding-top: 5px;
+    padding-left:5px;
+    padding-right: 5px;
+    background-color: darkviolet;
+    position:absolute;
+}
+
+.inscripciones{
+    height:380px;
+    width:50%;
+    padding: 5px;
+    background-color: darkturquoise;
+   margin-left: 500px;
+   position:absolute; 
+}
+
+.listinscripciones{
+    margin-top: 50px;
+    list-style: none;
+}
+
+.imaginscripciones{
+    margin-top:35px;
+    margin-left:auto;
+    margin-right:auto;
+    filter:drop-shadow(10px 10px 10px black);
+
+}
+
+.boximagen{
+    margin-bottom: 10px;
+    filter: drop-shadow(10px 10px 10px black);
+    margin-top:50px; 
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h2{
+    color: white;
+}
+
+.boton{
+    background-color: rgb(0, 113, 193);
+    color: white;
+    border-radius: 15px;
+    text-decoration:none;
+    display: inline-block;
+    margin-top:15px;
+    width:100px;
+    height:30px;
+    text-align:center;
+    line-height: 2em;
+}
+
+.lista{
     text-decoration: none;
-    font-family:'Open Sans', sans-serif;
- 
-    color: rgb(231, 163, 79);
+    color:whitesmoke;
+    margin-left:5px;
 }
 
-.padre{
-    display: flex;
-    justify-content: space-around;
+.boton:hover{
+    background-color:#850424;
 }
+
+.lista:hover{
+    color:#850424;
+}
+
 footer{
     background: rgb(133, 4, 36);
     color:white;
@@ -155,7 +231,24 @@ footer{
         .navegacion{
             width: 100%;
         }
-    
+        
+
+        .evaluaciones{
+            margin-left: auto;
+            margin-right: auto;
+            height: auto; 
+             width: auto;
+        }
+
+        .inscripciones{
+            top:1200px;
+            margin-left: auto;
+            margin-right: auto;
+            height:auto;
+            width: auto;
+        }
+
+       
 }
 
 
