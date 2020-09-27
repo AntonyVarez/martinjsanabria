@@ -11,13 +11,13 @@
 /*fondo de la caja animada*/
 .containerb{
     position: relative;
-    width: 1100;
+    /*width: 1100px;*/
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-    /*background-color: blue;*/
+    /*background-color: darkturquoise;*/
 }
 
 
@@ -35,15 +35,14 @@
 }
 
 .containerb .card:hover{
-    height: 490px;
+    height: 420px;
 }
-
 .containerb .card .imagex{
     position: relative;
     width: 280px;
     height: 133px;
-    top: -60;
-    left: 45px;
+    top: -45px;
+    left: 60px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
@@ -62,13 +61,11 @@
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
-
 }
-
 .containerb .card:hover .contentb{
     visibility: visible;
     opacity: 1;
-    margin-top: 10px;
+    margin-top: -20px;
     transition-delay: 0.3s;
 }
 

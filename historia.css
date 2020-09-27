@@ -38,12 +38,6 @@
 .containerb .card .imagex{
     position:relative;
     width: 260px;
-    height: 260px;
-}
-
-.containerb .card .imagex{
-    position:relative;
-    width: 260px;
     top: -45px;
     left: -7px;
     z-index: 1;
