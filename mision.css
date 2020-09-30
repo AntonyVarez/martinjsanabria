@@ -1,4 +1,29 @@
 
+@font-face{
+    
+    src: url(../martinjsanabria/assets/Cabin\ Regular.ttf);
+    font-family: cabin;
+}
+
+@font-face{
+    src: url(../martinjsanabria/assets/Didot\ Regular.ttf);
+    font-family: didot;
+}
+
+h1 {
+    font-family: didot;
+    font-size: x-large;
+}
+
+h3{
+    font-family: didot;
+    font-size: large;
+}
+
+p{
+    font-family: cabin;
+}
+
 /*biografia martin J. Sanabria*/
 .general{
     position: absolute;
@@ -6,7 +31,7 @@
     justify-content: center;
     align-items: center;
     margin-top: -35px;
-    margin-left: 700px;
+    margin-left: 840px;
 }
 /*fondo de la caja animada*/
 .containerb{
@@ -42,7 +67,7 @@
     width: 280px;
     height: 133px;
     top: -45px;
-    left: 60px;
+    left: 80px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
@@ -85,6 +110,8 @@ article#main-col{
     border-radius: 10px;
     text-align: left;
     margin-left: 15px;
+    font-family: cabin;
+    font-size: large;
 }
 
 /*imagen de misión*/

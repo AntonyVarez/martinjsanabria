@@ -1,3 +1,15 @@
+
+@font-face{
+    
+    src: url(../martinjsanabria/assets/Cabin\ Regular.ttf);
+    font-family: cabin;
+}
+
+@font-face{
+    src: url(../martinjsanabria/assets/Didot\ Regular.ttf);
+    font-family: didot;
+}
+
 /*lateral*/
 aside#lateral{
     float: right;
@@ -11,15 +23,25 @@ aside#lateral{
     color: #91c4e5 ;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 15px;
-    font-family:'Open Sans', sans-serif;
+    font-size: medium;
+    font-family:cabin;
     border-radius: 10px;
     text-align: center;
     margin-left: 5px;
 }
 
 .titulo{
-    color: white;
+    color: white;  
+}
+
+h1{
+    font-family: didot;
+    font-size:x-large;
+}
+
+h3{
+    font-family: didot;
+    font-size:x-large;
 }
 
 /*main-col*/
@@ -43,6 +65,10 @@ article#main-col{
 .imgptms{
     filter: drop-shadow(15px 15px 10px black);
     border-radius: 15px;
+}
+
+.logoptms{
+    margin-left: 0px;
 }
 
 img{

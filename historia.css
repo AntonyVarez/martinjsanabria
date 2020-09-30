@@ -1,4 +1,31 @@
 
+@font-face{
+    
+    src: url(../martinjsanabria/assets/Cabin\ Regular.ttf);
+    font-family: cabin;
+}
+
+@font-face{
+    src: url(../martinjsanabria/assets/Didot\ Regular.ttf);
+    font-family: didot;
+}
+
+h1{
+    font-family:didot;
+    font-size:x-large;
+}
+
+p{
+    font-family: cabin;
+    font-size: large;
+}
+
+i{
+    font-family: cabin;
+    font-size: medium;
+}
+
+
 /*himno martin J. Sanabria*/
 .general{
     position: absolute;
@@ -33,7 +60,7 @@
 }
 
 .containerb .card:hover{
-    height:720px;
+    height:860px;
 }
 .containerb .card .imagex{
     position:relative;
@@ -137,6 +164,5 @@ img{
         font-size: smaller;
     
     }
-
 }
 
