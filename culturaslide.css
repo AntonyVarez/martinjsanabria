@@ -12,8 +12,8 @@ img{
 
 .container-all{
     position: relative;
-    max-width: 1000px;
-    width: 100%;
+    /*max-width: 1000px;
+    width: 100%;*/
     border-radius: 6px;
     overflow: hidden;
     margin-top: 8px;
