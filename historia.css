@@ -33,12 +33,12 @@ i{
     justify-content: center;
     align-items: center;
     margin-top: -35px;
-    margin-left: 660px;
+    margin-left: 625px;
 }
 
 .containerb{
     position: relative;
-    width: 1100;
+    /*width: 1100;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ i{
     height: 215px;
     background: #fff;
     margin: 30px 10px;
-    padding: 20px 15px;
+    padding: 20px 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 0  5px 20px rgba(0,0,0,0.5);
@@ -130,10 +130,9 @@ article#main-col{
 
 
 img{
-    margin-left: 15px;
+    margin-left: 10px;
     border-radius: 5px;
-    filter: drop-shadow(10px 10px 10px black);
-    margin
+   
 }
 
 @media (max-width:600px){

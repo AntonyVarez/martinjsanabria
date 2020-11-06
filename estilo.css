@@ -197,7 +197,7 @@ body{
 
 .imaginscripciones{
     margin-top:35px;
-    margin-left:50px;
+    margin-left:60px;
     margin-right:auto;
     filter:drop-shadow(10px 10px 10px black);
 
@@ -373,11 +373,19 @@ footer{
         }
 
         .inscripciones{
-            top:1150px;
+            top:1050px;
             margin-left: auto;
             margin-right: auto;
             height:auto;
             width: auto;
+        }
+
+        .imaginscripciones{
+            margin-top:35px;
+            margin-left:auto;
+            margin-right:auto;
+            filter:drop-shadow(10px 10px 10px black);
+        
         }
 
         .container{
@@ -386,6 +394,10 @@ footer{
 
         .boxboxes{
             margin-top:60em;
+        }
+
+        h2{
+            text-align: left;
         }
 
 

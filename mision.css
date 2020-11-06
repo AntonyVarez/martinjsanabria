@@ -30,19 +30,16 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -35px;
-    margin-left: 840px;
+    margin-top: -5px;
+    margin-left: 680px;
 }
 /*fondo de la caja animada*/
 .containerb{
     position: relative;
-    /*width: 1100px;*/
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
-    /*background-color: darkturquoise;*/
 }
 
 
@@ -122,9 +119,6 @@ article#main-col{
     margin-bottom: 100px;
 }
 
-img{
-    margin-left: 5px;
-}
 
 @media (max-width:600px){
     .menu{
