@@ -77,6 +77,18 @@ article#main-col{
     .menu{
     flex-direction: column;
     }
+
+    .contenido{
+        
+    }
+
+    .imagenvision{
+        margin-left:5;
+    }
+    .oscuro{
+        margin-top:90px;
+        width:120px;
+    }
 }
 
 

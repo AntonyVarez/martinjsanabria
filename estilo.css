@@ -368,26 +368,30 @@ footer{
             width: 100%;
         }
         
-
         .evaluaciones{
             margin-left: auto;
             margin-right: auto;
             height: auto; 
-             width: auto;
+            width: 100%;
         }
 
         .inscripciones{
-            top:1050px;
+            top:1090px;
             margin-left: auto;
             margin-right: auto;
             height:auto;
-            width: auto;
+            width: 100%;
+        }
+
+        .boton{
+            margin-bottom: 15px;
         }
 
         .imaginscripciones{
-            margin-top:35px;
+            margin-top:15px;
             margin-left:auto;
             margin-right:auto;
+            margin-bottom:25px;
             filter:drop-shadow(10px 10px 10px black);
         
         }
