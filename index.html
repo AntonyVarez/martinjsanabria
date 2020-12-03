@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="Logo liceoJPG.jpg">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="slide.css">
-    <script>src="https://code.jquery.com/jquery-1.11.3.min.js"</script>
+    <!--<script>src="https://code.jquery.com/jquery-1.11.3.min.js"</script>-->
     <link rel="shortcut icon" type="image/x-icon" href="Images/faviconoriginal.png">
     <title>Liceo Nacional Martin J. Sanabria</title>
     <script type='application/ld+json'> 
@@ -52,7 +52,7 @@
             var dia=fechaActual.getDate();
             var dayweek=fechaActual.getDay();
             var diasSemana=["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sábado"]
-            document.write("San Blas: "+diasSemana[dayweek]+ " " +dia+ " de Noviembre " + " del año " +year   );     
+            document.write("San Blas: "+diasSemana[dayweek]+ " " +dia+ " de Diciembre " + " del año " +year   );     
         </script>
     </div>
 
@@ -191,8 +191,23 @@
       </div>
     </div>
 
+    <!--EFECTO NIEVE NAVIDAD-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+    <script src="script.js"></script>
+    <script>
+      $(document).ready( function(){
+          $.fn.snow();
+      });
+      </script>
 
-    <!--<div class="formulario">
+    <!--EFECTO FROSTY NAVIDAD-->
+    <div style="text-align: center;"><a style= "@media screen and (max-width: 980px) display: none; left: 0px; height: 200px; width: 70px; position: fixed; top: 0px;"><img src="http://www.imagenesanimadas.net/Navidad/Adornos/adornos-01.gif" _fcksavedurl="" alt="" /></a></div>
+    
+    <!--EFECTO ARBOL NAVIDAD-->
+    <div style="text-align: center;"><a style= "@media screen and (max-width: 980px) display: none; right: 3px; height: 167px; width: 100px; position: fixed; bottom: -5px;"><img src="https://image.ibb.co/mepY4b/ezgif_com_optimize.gif" _fcksavedurl="" alt="" /></a></div>
+
+
+<!--<div class="formulario">
 
       <SCRIPT  language=JavaScript> 
         function go(){
@@ -213,9 +228,7 @@
         
         </FORM>
 
-    </div>
-
-
+    </div>-->
   </body>
 <!--<footer>
     <p>Desarrollado por el grupo de C.R.P Programación y Diseño Web 2020</p>
