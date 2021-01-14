@@ -161,7 +161,7 @@ body{
     padding: 0;
 }*/
 
-/*EVALUACIÓN Y CONSTRUCCIÓN */
+/*EVALUACIÓN Y NOTICAS */
 .boxgeneral{
     height:420px;
     width: 100%;
@@ -339,6 +339,80 @@ footer{
     position: inherit;   
 }
 
+/*Formulario*/
+
+.fondoformulario{
+    margin-top: 70px;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.formulario{
+    margin-top: 100px;
+    width: 420px;
+    height: 420px;
+    color:black;
+    background-color: white;
+    text-transform: uppercase;
+    left:35%;
+    position: absolute;
+    padding: 100px 30px;
+    border-radius: 10px;
+}
+
+.imagen{
+    width: 170px;
+    height: 170px;
+    margin-left: 95px;
+    margin-top: -170px;
+    border-radius: 50%;
+}
+
+.formu{
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.usuario{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.contraseña{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+INPUT{
+    background:none;
+    border:none;
+    border-bottom: 1px solid black;
+    margin-top:5;
+    color: black;
+    font-size:18px;
+    padding: 10px 10px 10px 5px;
+    border-radius: 10px;
+}
+
+
+.input{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-top:25px;
+}
+
 /* Parte Responsiv*/
 @media (max-width:600px){
         .menu{
@@ -414,6 +488,11 @@ footer{
         }
         .menu{/*Alienar al centra para agregar adorno navideño*/
             text-align: center;
+        }
+
+        .formulario{
+            left: 55px;
+
         }
 
        
