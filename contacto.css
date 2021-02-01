@@ -30,6 +30,17 @@ iframe{
 }
 
 
+
+
+@keyframes modal {
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+
+
 @media (max-width:600px){
     .menu{
     flex-direction: column;
