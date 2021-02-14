@@ -124,6 +124,24 @@ article#main-col{
     .menu{
     flex-direction: column;
     }
+
+    .general{
+        
+        right: 100px;
+        height: 1610px;
+    }
+
+    .containerb .card .imagex{
+        position: relative;
+        width: 280px;
+        height: 133px;
+        top: -45px;
+        left: 15px;
+        z-index: 1;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+
+
 }
 
 

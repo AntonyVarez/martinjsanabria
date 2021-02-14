@@ -158,8 +158,8 @@ img{
 
     .general{
         flex-direction: column;
-        margin-left: 100px;
-        top:1480px;
+        margin-left: -25px;
+        top:1790px;
         font-size: smaller;
     
     }
