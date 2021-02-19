@@ -12,9 +12,9 @@
 /* decoracion del navegador */
 .navegacion{
     background: rgb(133, 4, 36);
-    width: 1060px;
+    width: 100%;
     top: 0;
-    left: 0;
+    left: 0;                    
     z-index: 100;
 }
 
@@ -88,6 +88,8 @@
     width: 100px;
     height: 100px;
     margin: -15px 10px 10px 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2{
     font: bold;
@@ -171,7 +173,7 @@ h3{
     width: 40px;
     line-height: 40px;
     border-radius:50%;
-    right: 185px;
+    right: 205px;
     top: 40px;
     cursor: pointer;
 
@@ -227,7 +229,7 @@ h3{
         
         z-index: 1;
         width: 100%;
-        height: 280vh;
+        height: 300vh;
         background: rgba(0, 0, 0, 0.8);
 
         position: absolute;
@@ -253,9 +255,14 @@ h3{
         width: 40px;
         line-height: 40px;
         border-radius:50%;
-        right: 40px;
-        top: 90px;
+        right: 10px;
+        top: 100px;
         cursor: pointer;
+    }
+
+    .contenido{
+        text-align: left;
+        width:80%;
     }
 
 }
