@@ -137,16 +137,16 @@ a{
 
     display:flex;
 
-    /*animation: modal 1s 1s forwards;
+    animation: modal 1s 1s forwards;
     visibility: hidden;
-    opacity: 0;*/
+    opacity: 0;
 }
 
 .contenido{
     padding: 10px;
     margin: auto;
     width: 60%;
-    height:80%;
+    height:80%; /* tamño del modal en lato*/
     background: white;
     border-radius: 10px;
     text-align: justify;
@@ -198,7 +198,7 @@ h3{
 @media (max-width:600px){
     .menu{
     flex-direction: column;
-     
+    
     } 
     /*.navegacion ul li:hover ul{  /* No se despliega el submenu cuando esta en responsive
         display: none;    
