@@ -126,9 +126,8 @@ article#main-col{
     }
 
     .general{
-        
-        right: 100px;
-        height: 1610px;
+        right: 150px;
+        height: 1400px;
     }
 
     .containerb .card .imagex{
@@ -141,7 +140,10 @@ article#main-col{
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     }
 
-
+    .misionimage{
+        margin-top: 20px;
+        margin-left: 65px;
+    }    
 }
 
 

@@ -18,14 +18,12 @@
     z-index: 100;
 }
 
-
 /*aqui se llama a todos los ul de la navegación desde el menu hasta los sub menu*/
 /* y se quita el decorado que trae de lista*/
 .navegacion ul{
     list-style: none;  
     z-index: 100;  
 }
-
 
 /*este menu me ordena de forma horizontal y de un lado a otro los enlaces*/
 .menu {
@@ -46,9 +44,8 @@
 /*efecto hover a los titulos y se llamará a los hijos y nietos*/
 .menu li a:hover{
     color: white;
-    transition: all .4s; /*revisar trnasición de color no pasa nada */
+    transition: all .4s; /*revisar transición de color no pasa nada */
 }
-
 
 .submenu{
     position: absolute;
@@ -81,7 +78,6 @@
     text-align: right;
     font-family: 'Open Sans', sans-serif;
 }
-
 
 /* Imagen del escudo del liceo*/
 .logo{
@@ -122,21 +118,16 @@ a{
     align-content: center;
 }
 
-
 /*MODAL*/
-
 .modal{
     z-index: 1;
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.8);
-
     position: absolute;
     top: 0;
     left: 0;
-
     display:flex;
-
     animation: modal 1s 1s forwards;
     visibility: hidden;
     opacity: 0;
@@ -186,14 +177,51 @@ h3{
     display: none;
 }
 
+
+caption{
+    text-align: center;
+    font-family: sans-serif;
+    color: #1A8CFF;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.table-rwd {
+    font-size: .85em;
+    border: 1px solid rgba(181, 213, 144, 0.5);
+    color: #666;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto; }
+    .table-rwd td, .table-rwd th {
+    padding: .8em;
+    border-bottom: 1px solid rgba(181, 213, 144, 0.5); }
+    .table-rwd th {
+    background: #1A8CFF;
+    color: #fff;
+    font-weight: normal;
+    text-align: center; }
+    .table-rwd td {
+    text-align: center; }
+    .table-rwd td:first-of-type {
+        text-align: center; }
+        .table-rwd td:first-of-type:before {
+        content: ""; }
+        .table-rwd td:first-of-type:after {
+        content: ""; }
+    .table-rwd tr:hover {
+    background: rgba(181, 213, 144, 0.2); }
+    .table-rwd tr td:nth-child(1n) {
+    background: rgba(181, 213, 144, 0.2); 
+}
+
+
 @keyframes modal {
 	100% {
 		visibility: visible;
 		opacity: 1;
 	}
 }
-
-
 
 @media (max-width:600px){
     .menu{
@@ -223,26 +251,20 @@ h3{
         width: 100%;
     }
 
-    
-
-   .modal{
+    .modal{
         
         z-index: 1;
         width: 100%;
         height: 300vh;
         background: rgba(0, 0, 0, 0.8);
-
         position: absolute;
         top: 0;
         left: 0;
-
         display:flex;
-
     /*animation: modal 1s 1s forwards;
     visibility: hidden;
     opacity: 0;*/
-}
-
+    }
     #cerrar + label{
         display: flex;
         justify-content: center;
@@ -261,48 +283,16 @@ h3{
     }
 
     .contenido{
-        text-align: left;
+        text-align: center;
         width:80%;
     }
-
 }
+    
 
 
-caption{
-    text-align: center;
-    font-family: sans-serif;
-    color: #1A8CFF;
-    margin: 10px;
-    padding: 10px;
-   font-size: 20px;
-}
-.table-rwd {
-    font-size: .85em;
-    border: 1px solid rgba(181, 213, 144, 0.5);
-    color: #666;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto; }
-    .table-rwd td, .table-rwd th {
-      padding: .8em;
-      border-bottom: 1px solid rgba(181, 213, 144, 0.5); }
-    .table-rwd th {
-      background: #1A8CFF;
-      color: #fff;
-      font-weight: normal;
-      text-align: center; }
-    .table-rwd td {
-      text-align: center; }
-      .table-rwd td:first-of-type {
-        text-align: center; }
-        .table-rwd td:first-of-type:before {
-          content: ""; }
-        .table-rwd td:first-of-type:after {
-          content: ""; }
-    .table-rwd tr:hover {
-      background: rgba(181, 213, 144, 0.2); }
-    .table-rwd tr td:nth-child(1n) {
-      background: rgba(181, 213, 144, 0.2); }
+
+
+
 
 
 

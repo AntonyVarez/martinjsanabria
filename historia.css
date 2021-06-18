@@ -131,8 +131,7 @@ article#main-col{
 
 img{
     margin-left: 10px;
-    border-radius: 5px;
-   
+    border-radius: 5px;  
 }
 
 @media (max-width:600px){
@@ -158,10 +157,9 @@ img{
 
     .general{
         flex-direction: column;
-        margin-left: -25px;
-        top:1790px;
+        margin-left: 33px;
+        top:1510px;
         font-size: smaller;
-    
     }
 }
 

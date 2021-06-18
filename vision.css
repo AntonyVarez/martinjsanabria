@@ -26,7 +26,6 @@ p{
 }
 
 
-
 /*lateral*/
 aside#lateral{
     float: right;
@@ -85,8 +84,11 @@ article#main-col{
     .imagenvision{
         margin-left:5;
     }
+
     .oscuro{
-        margin-top:90px;
+        position: absolute;
+        margin-top:510px;
+        right: 260px;
         width:120px;
     }
 }
