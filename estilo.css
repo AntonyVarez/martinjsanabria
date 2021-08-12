@@ -1,5 +1,6 @@
 
 
+
 @font-face{
     
     src: url(../martinjsanabria/assets/Cabin\ Regular.ttf);
@@ -156,7 +157,7 @@ body{
 
 .evaluaciones{
     height:400px;
-    width: 100%;
+    width: 50%;
     padding-top: 5px;
     padding-left:5px;
     padding-right: 5px;
@@ -166,7 +167,7 @@ body{
 
 .inscripciones{
     height:400px;
-    width:100%;
+    width:50%;
     padding: 5px;
     background-color: darkturquoise;
    margin-left: 50%;
@@ -229,7 +230,7 @@ h2{
 /*tarjetas animadas*/
 
 .boxboxes{
-    margin-top:500px;
+    margin-top:300px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -242,7 +243,7 @@ h2{
     display:flex;
     justify-content:center;
     align-items:center;
-    /*flex-wrap:wrap;*/
+    flex-wrap:wrap;
     padding:30px;
     margin-left:20px;
 }
@@ -320,7 +321,7 @@ footer{
 /*Formulario*/
 
 .fondoformulario{
-    margin-top: 70px;
+    margin-top: 450px;
     height: 100vh;
     width: 100%;
     position: absolute;
@@ -331,12 +332,12 @@ background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, F
 }
 .formulario{
     margin-top: 100px;
-    width: 420px;
+    width: 400px;
     height: 420px;
     color:black;
     background-color: white;
     text-transform: uppercase;
-    left:35%;
+    left:25%;
     position: absolute;
     padding: 100px 30px;
     border-radius: 10px;
@@ -468,9 +469,17 @@ INPUT{
             text-align: center;
         }
 
-        .formulario{
-            left: 55px;
+        .fondoformulario{
+            margin-top: 900px;
+            width:100%;
 
+        }
+
+        .formulario{
+            
+            width:80%;
+            left:23px;
+            text-transform:capitalize;
         }
 
        

@@ -28,17 +28,17 @@ i{
 
 /*himno martin J. Sanabria*/
 .general{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -35px;
-    margin-left: 650px;
+    left: 6px;
 }
 
 .containerb{
     position: relative;
-    /*width: 1100;*/
+    width: 1100 px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@ i{
 
 
 
-/* caja de texto de la historia*/
+/*caja de texto de la historia*/
 .oscuro{
     padding: 15px;
     background-color: #35424a;
@@ -113,7 +113,7 @@ i{
 
 article#main-col{
     float: left;
-    width: 65%;
+    width: 55%;
     text-align: center;
 }
 
@@ -156,10 +156,11 @@ img{
     }
 
     .general{
-        flex-direction: column;
-        margin-left: 33px;
-        top:1510px;
-        font-size: smaller;
+        position: relative;
+        top: 2125px;
+        left:-100px;
+
+
     }
 }
 

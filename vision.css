@@ -26,7 +26,7 @@ p{
 }
 
 
-/*lateral*/
+/*magen escudo martin j*/
 aside#lateral{
     float: right;
     width: 30%;
@@ -34,6 +34,7 @@ aside#lateral{
 } 
 
 .oscuro{
+    position: absolute;
     padding: 15px;
     background-color: #35424a;
     color: #fff;
@@ -43,11 +44,11 @@ aside#lateral{
     font-family:'Open Sans', sans-serif;
     border-radius: 10px;
     text-align: center;
-    margin-left: 5px;
+    margin-left: px;
+    left:530px;
 }
 
-/*main-col*/
-
+/*imagen de vision*/
 article#main-col{
     float: left;
     width: 65%;
@@ -55,6 +56,7 @@ article#main-col{
 }
 
 .contenido{
+    width: 86%;
     padding: 20px;
     border: 1px solid #ccc;
     margin-bottom: 5px;
@@ -64,31 +66,36 @@ article#main-col{
     margin-left: 15px;
 }
 
-/*imagen del logo de visión*/
-.imagenvision{
-    margin-left: 15px;
-    border-radius: 10px;
-    filter: drop-shadow(10px 10px 10px black);
-    margin-bottom: 100px;
-}
+
 
 @media (max-width:600px){
     .menu{
     flex-direction: column;
     }
 
+    article#main-col{
+        text-align: center;
+        width:100%;
+        left:30px;
+        height:10px;
+    }
+
     .contenido{
-        
+        width:180px;
+        font-size: medium;
     }
 
     .imagenvision{
-        margin-left:5;
+        position:absolute;
+        left: 15px;
+        height: 100px;
+        width:180px;
     }
 
     .oscuro{
         position: absolute;
         margin-top:510px;
-        right: 260px;
+        left: 45px;
         width:120px;
     }
 }

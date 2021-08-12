@@ -31,7 +31,7 @@ p{
     justify-content: center;
     align-items: center;
     margin-top: -5px;
-    margin-left: 680px;
+    left: 505px;
 }
 /*fondo de la caja animada*/
 .containerb{
@@ -45,28 +45,28 @@ p{
 
 .containerb .card{
     position: relative;
-    max-width: 300px;
+    max-width: 200px;
     height: 215px;
     background: #fff;
     margin: 30px 10px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0  5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
     transition: 0.3s ease-in-out;
 }
 
 .containerb .card:hover{
-    height: 420px;
+    height: 510px;
 }
 .containerb .card .imagex{
     position: relative;
     width: 280px;
     height: 133px;
     top: -45px;
-    left: 80px;
+    left: 37px;
     z-index: 1;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 .containerb .card .imagex{
@@ -92,10 +92,9 @@ p{
 }
 
 /*main-col*/
-
 article#main-col{
     float: left;
-    width: 65%;
+    width: 58%;
     text-align: center;
 }
 
@@ -119,15 +118,36 @@ article#main-col{
     margin-bottom: 100px;
 }
 
-
 @media (max-width:600px){
     .menu{
     flex-direction: column;
     }
 
+    article#main-col{
+        text-align: center;
+        width: 100%;
+        left: 30px;
+        height: 10px;
+    }
+
+    .contenido{
+        width: 180px;
+        font-size:medium;
+    }
+    .misionimage{ 
+        position:absolute;
+        left:-1px;
+        width: 180px;
+        height: 100px;
+    }
+
     .general{
-        right: 150px;
-        height: 1400px;
+        top:1020px;
+        left:1px;
+    }
+
+    .containerb .card:hover{
+        height: 535px;
     }
 
     .containerb .card .imagex{
@@ -135,15 +155,9 @@ article#main-col{
         width: 280px;
         height: 133px;
         top: -45px;
-        left: 15px;
+        left: 31px;
         z-index: 1;
-        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     }
-
-    .misionimage{
-        margin-top: 20px;
-        margin-left: 65px;
-    }    
 }
 
 
